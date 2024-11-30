@@ -15,3 +15,8 @@
     background-position: 0% 50%;
   }
 }
+
+.carousel-inner > div {
+  height: 3fr;
+  width: 250px;
+}

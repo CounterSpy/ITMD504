@@ -13,6 +13,69 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-filetype-html"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"
+            />
+          </svg>
+          ITMD 504</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="node.html">Check My Node.js</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="node.html">My Node.js</a></li>
+                <li><a class="dropdown-item" href="about.html">About Me</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" target="_blank" href="https://github.com/CounterSpy/ITMD504">My Git Hub</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
     <section id="title" class="gradient-background">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -31,24 +94,26 @@
             </h1>
             <p class="lead"></p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
-                  fill="currentColor"
-                  class="bi bi-bootstrap"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"
-                  />
-                  <path
-                    d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"
-                  />
-                </svg>
-                Bootstrap
-              </button>
+              <a href="#bootstrap">
+                <button type="button" class="btn btn-light btn-lg px-4 me-md-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-bootstrap"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"
+                    />
+                    <path
+                      d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"
+                    />
+                  </svg>
+                  Bootstrap
+                </button></a
+              >
               <button type="button" class="btn btn-outline-light btn-lg px-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,5 +135,198 @@
         </div>
       </div>
     </section>
+    <p></p>
+    <br />
+
+
+    <a id="bootstrap"></a>
+
+     <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">How I Designed My Project With Bootstrap:</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="./images/1-square.svg" alt="first" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Planning & Design</h3>
+          <p>
+            I started with an idea on creating a project which details <i>how</i>
+            I created my final project.<br>
+            I used <i>Azure DevOps</i> (see main image above) to create an 
+            Epic and a Story within it to document my ideas.<br>
+            I also 'wire framed' how I would layout my pages.
+          </p>
+          <a href="#" class="icon-link"> Get A Quote </a>
+          <img src="./chevron-right.svg" alt="chevron-right" />
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="./images/2-square.svg" alt="Second" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Main Page Using Bootstrap</h3>
+          <p>
+            Although I had some knowledge of HTML, I had no knowledge of how to use newer technologies, such as frameworks and libraries.<br>
+            I was very interested in using <i>Bootstrap</i> and learning the basics.<br>
+            I therefore created my landing page (index.html) with heavy emphasis on <i>Bootstrap</i> components.
+          </p>
+          <a href="#" class="icon-link">
+            Get A Quote
+            <img src="./chevron-right.svg" alt="chevron-right" />
+          </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="./images/3-square.svg" alt="Third" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Interactivity & Cloud</h3>
+          <p>
+            In order to meet additional requirements, I planned on using <i>AWS</i> as my cloud host.<br>
+            I also planned a simple database to demonstrate the interactivity requirement on my <i>node.html</i> page.<br>
+            I knew nothing about <i>node.js & Express & React</i> when starting this class.<br>
+            I began studying these technologies and applied them to accomplish this task.
+          </p>
+          <a href="#" class="icon-link">
+            Get A Quote
+            <img src="./chevron-right.svg" alt="chevron-right" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="container"><h2>Click Images To Scroll My Project Progress:</h2>
+      
+      <h6>Uses Boostrap Carousel</h6>
+      
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/kanban_story_1.jpg" class="d-block b-100" alt="kanban" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Kanban</h5>
+              <p>This shows my Kanban Story.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/visual_studio_src_control.jpg" class="d-block b-100" alt="VS Source Control" />
+                        <div class="carousel-caption d-none d-md-block">
+              <h5>VS Source Control</h5>
+              <p>This shows my VS Source Control.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/adding_git_staging_1.jpg" class="d-block w-100" alt="git hub adding staging" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/git_hub_repo_1.jpg" class="d-block w-100" alt="git hub rept 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/git_hub_repo_2.jpg" class="d-block w-100" alt="git hub rept 2" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2024 by James Thomas <i>for </i><b>ITMD 504</b></p>
+        </div>
+
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3">
+          <h5>Additional Links:</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="https://github.com/CounterSpy/ITMD504" target="_blank"  class="nav-link p-0 text-body-secondary">My github Source Control</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://aws.amazon.com/about-aws/?nc2=h_header" target="_blank" class="nav-link p-0 text-body-secondary">AWS</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://www.coursera.org/degrees/mas-information-technology-illinois-tech" target="_blank" class="nav-link p-0 text-body-secondary">IIT On Coursera</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://getbootstrap.com/" target="_blank" class="nav-link p-0 text-body-secondary">Get Bootstrap</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="about.html" class="nav-link p-0 text-body-secondary">About Me</a>
+            </li>
+          </ul>
+        </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
